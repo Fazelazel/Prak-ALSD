@@ -27,7 +27,7 @@ public class ProgramNilaiAkhir {
         }
 
         double nilaiAkhir = (tugas * 0.2) + (kuis * 0.2) + (uts * 0.3) + (uas * 0.3);
-
+        
         if (tugas <= 100 && kuis <= 100 && uts <= 100 && uas <= 100) {
             System.out.println("Nilai Akhir : " + nilaiAkhir);
 

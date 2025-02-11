@@ -26,7 +26,7 @@ public class JadwalKuliah {
             sks[i] = scanner.nextInt();
             System.out.print("Semester: ");
             semester[i] = scanner.nextInt();
-            scanner.nextLine(); // Mengonsumsi newline setelah nextInt()
+            scanner.nextLine(); 
             System.out.print("Hari Kuliah: ");
             hariKuliah[i] = scanner.nextLine();
         }
@@ -42,7 +42,7 @@ public class JadwalKuliah {
             System.out.println("5. Keluar");
             System.out.print("Pilih menu (1-5): ");
             pilihan = scanner.nextInt();
-            scanner.nextLine(); // Konsumsi newline
+            scanner.nextLine(); 
 
             switch (pilihan) {
                 case 1:
