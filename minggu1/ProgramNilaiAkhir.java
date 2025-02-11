@@ -10,9 +10,6 @@ public class ProgramNilaiAkhir {
         System.out.println("============================");
         System.out.print("Masukkan nilai tugas : ");
         int tugas = sc.nextInt();
-        if (tugas > 100) {
-            System.out.println("Nilai tidak valid");
-        }
         System.out.print("Masukkan nilai kuis : ");
         int kuis = sc.nextInt();
         System.out.print("Masukkan nilai UTS : ");
@@ -59,6 +56,6 @@ public class ProgramNilaiAkhir {
         } else {
             System.out.println("MAAF ANDA TIDAK LULUS");
         }
-
+        sc.close();
     }
 }
