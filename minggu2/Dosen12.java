@@ -25,9 +25,8 @@ public class Dosen12 {
         }
     }
 
-    void hitungMasaKerja(int thnSkrg) {
-        int masaKerja = thnSkrg - tahunBergabung;
-        System.out.println("Sudah mengajar selama " + masaKerja + " tahun");
+    int hitungMasaKerja(int thnSkrg) {
+        return thnSkrg - tahunBergabung;
     }
 
     void ubahKeahlian(String bidang) {

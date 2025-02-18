@@ -10,7 +10,7 @@ public class DosenMain12 {
         dosen1.bidangKeahlian = "Sistem Informasi";
         dosen1.tampilkanInformasi();
         System.out.println("==========================");
-        dosen1.hitungMasaKerja(2025);
+        System.out.println("Sudah mengajar selama " + dosen1.hitungMasaKerja(2025) + " tahun");
         System.out.println("==========================");
 
         Dosen12 dosen2 = new Dosen12("D002", "Dr. Nabil", false, 2015, "Web Programming");
@@ -21,7 +21,7 @@ public class DosenMain12 {
         System.out.println("==========================");
         dosen2.tampilkanInformasi();
         System.out.println("==========================");
-        dosen2.hitungMasaKerja(2025);
+        System.out.println("Sudah mengajar selama " + dosen2.hitungMasaKerja(2025) + " tahun");
         System.out.println("==========================");
     }
 }
