@@ -32,6 +32,8 @@ public class MataKuliah12 {
         System.out.print("Jumlah Jam  : ");
         this.jumlahJam = Integer.parseInt(sc.nextLine());
         System.out.println("---------------------------");
+
+        sc.close();
     }
 
     // Method untuk menampilkan data mata kuliah

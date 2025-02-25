@@ -25,5 +25,7 @@ public class MataKuliahDemo12 {
             System.out.println("Data Mata Kuliah ke-" + (i+1));
             arrayOfMataKuliah12[i].cetakInfo();
         }
+
+        sc.close();
     }
 }

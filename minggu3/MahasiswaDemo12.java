@@ -29,5 +29,7 @@ public class MahasiswaDemo12 {
             System.out.println("Data Mahasiswa ke-" + (i+1));
             arrayMahasiswa12[i].cetakInfo();
         }
+
+        sc.close();
     }
 }
