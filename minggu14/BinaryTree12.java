@@ -1,4 +1,4 @@
-package minggu15;
+package minggu14;
 
 public class BinaryTree12 {
     Node12 root;

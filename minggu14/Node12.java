@@ -1,4 +1,4 @@
-package minggu15;
+package minggu14;
 
 public class Node12 {
     Mahasiswa12 mahasiswa;
